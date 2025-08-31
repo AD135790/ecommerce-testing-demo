@@ -1,0 +1,10 @@
+{
+  "id": "fakestore-env",
+  "name": "FakeStore Environment",
+  "values": [
+    { "key": "base_url", "value": "https://fakestoreapi.com", "enabled": true },
+    { "key": "token", "value": "", "enabled": true }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_using": "Postman/11.0"
+}
