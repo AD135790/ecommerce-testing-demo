@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# ecommerce-testing-demo
+=======
+>>>>>>> 89cf917 (feat(test): add order module test cases)
 # 电商平台核心流程测试（Demo）
 
 本项目模拟一个电商平台的核心业务流程：**注册 → 登录 → 下单**。  
@@ -53,3 +59,7 @@
     "password": "123456",
     "email": "test@example.com"
   }
+<<<<<<< HEAD
+=======
+>>>>>>> c3679bd (init: add test cases and README)
+>>>>>>> 89cf917 (feat(test): add order module test cases)
