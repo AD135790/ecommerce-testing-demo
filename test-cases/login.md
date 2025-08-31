@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-from pathlib import Path
-
-login_test_case_table = """
-# 登录模块测试用例（表格格式）
-=======
 # 登录模块测试用例
->>>>>>> 89cf917 (feat(test): add order module test cases)
 
 | 用例编号 | 标题           | 前置条件 | 输入数据       | 操作步骤         | 预期结果                     |
 |----------|----------------|----------|----------------|------------------|------------------------------|
@@ -15,15 +8,5 @@ login_test_case_table = """
 | TC_04    | 用户名为空     | 用户已注册 | 空用户名 + 正确密码 | 输入并点击登录按钮 | 返回 400，提示“用户名不能为空” |
 | TC_05    | 密码为空       | 用户已注册 | 正确用户名 + 空密码 | 输入并点击登录按钮 | 返回 400，提示“密码不能为空” |
 | TC_06    | 用户名 + 密码都为空 | 无       | 空字段         | 点击登录按钮       | 返回 400，提示“字段不能为空” |
-<<<<<<< HEAD
-"""
-
-# 写入文件
-login_table_path = Path("login_table.md")
-login_table_path.write_text(login_test_case_table.strip(), encoding="utf-8")
-login_table_path.name
-=======
 
 
-
->>>>>>> 89cf917 (feat(test): add order module test cases)

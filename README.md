@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# ecommerce-testing-demo
-=======
->>>>>>> 89cf917 (feat(test): add order module test cases)
 # 电商平台核心流程测试（Demo）
 
-本项目模拟一个电商平台的核心业务流程：**注册 → 登录 → 下单**。  
+本项目模拟一个电商平台的核心业务流程：注册 → 登录 → 下单。  
 测试目标：确保核心流程功能正确、接口规范、数据一致、性能可接受。  
 
 ---
@@ -42,7 +36,7 @@
     pm.response.to.have.status(200);
   });
   pm.environment.set("token", pm.response.json().token);
-# Extend the user's existing README with 
+
 
 ---
 
@@ -59,7 +53,3 @@
     "password": "123456",
     "email": "test@example.com"
   }
-<<<<<<< HEAD
-=======
->>>>>>> c3679bd (init: add test cases and README)
->>>>>>> 89cf917 (feat(test): add order module test cases)

@@ -9,4 +9,3 @@
 | TC_ORDER_05    | 商品 ID 不存在 | product_id=99999, quantity=1               | 已登录      | 调用 /api/order 接口  | 返回 404，提示“商品不存在”   |
 | TC_ORDER_06    | 缺少字段       | quantity=2                                 | 已登录      | 调用 /api/order 接口  | 返回 400，提示“字段缺失”     |
 | TC_ORDER_07    | 字段类型错误   | product_id=101, quantity="two"             | 已登录      | 调用 /api/order 接口  | 返回 400，提示“类型错误”     |
-"""
